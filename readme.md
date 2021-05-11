@@ -1,12 +1,22 @@
 # WEATHA
 
-Welcome in Weatha, an application whose purpose is to use weather manipulation in order to control the world
+Welcome in Weatha, an application to understand how the weather works.
 
 ## Install the requirements
 
 We need to have all our dependencies install, so let's run a:
 
     pip install -r requirements.txt
+
+## Run the migrations
+
+Let's run the migration this way:
+
+    py manage.py makemigrations
+
+then: 
+
+    py manage.py migrate
 
 ## How to populate the database
 
@@ -59,4 +69,8 @@ To make a POST request, here's how to format the data you want to send:
 **Endpoint:**
 
     /api/weather
+
+## Need to mess around the admin ?
+
+A superuser is already 
 
