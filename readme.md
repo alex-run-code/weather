@@ -10,7 +10,7 @@ We need to have all our dependencies install, so let's run a:
 
 ## Run the migrations
 
-Let's run the migration this way:
+Let's run the migrations this way:
 
     py manage.py makemigrations
 
@@ -39,6 +39,8 @@ Simply use the following command:
     python manage.py test
 
 ## How to use the API
+
+**NB: Those endpoints must be added after your base url, which most likely is : http://127.0.0.1:8000/ or http://localhost:8000/**
 
 The endpoint is the same for both GET and POST requests:
 
